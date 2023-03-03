@@ -6,9 +6,7 @@ int main() {
 	int teste = 0;
 	char palavra[500], novapalavra[500], *ponteiro;
 	gets(palavra);
-	
 	ponteiro = palavra;
-	
 	for(int i = 0; i < 500; i++) {
 		if(*(ponteiro + i) != 'a' && *(ponteiro + i) != 'e' && *(ponteiro + i) != 'i' && *(ponteiro + i) != 'o' && *(ponteiro + i) != 'u') {
 			novapalavra[teste] = *(ponteiro + i);
@@ -18,10 +16,6 @@ int main() {
 			break;
 		}
 	}
-	
-	printf("A palavra sem vogais é: %s", novapalavra);
-	
-	
-	
+	printf("A palavra sem vogais Ã©: %s", novapalavra);
 	return 0;
 }
