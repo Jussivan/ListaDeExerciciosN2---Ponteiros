@@ -7,7 +7,6 @@ int main(){
 		scanf("%d", &vet[i]);
 	}
 	pont = vet;
-	
 	for(int j = n; j > 0; j--) {
 		printf("%d ", *(pont + (j -1)));
 	}
