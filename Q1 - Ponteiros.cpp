@@ -6,13 +6,13 @@ int main() {
 	int valor[5];
 	int *ponteiro;
 	for(int i = 0; i < 5; i++) {
-		printf("Informe o valor do %d° elemento: ", i + 1);
+		printf("Informe o valor do %dÂ° elemento: ", i + 1);
 		scanf("%d", &valor[i]);
 	}
 	ponteiro = valor;
 	for(int j = 0; j < 5; j++) {
-	printf("O valor do %d° elemento do array é: %d\n", j + 1,  *(ponteiro + j));
-	printf("O endereço do %d° elemento do array é: %d\n", j + 1,  (ponteiro + j));
+		printf("O valor do %dÂ° elemento do array Ã©: %d\n", j + 1,  *(ponteiro + j));
+		printf("O endereÃ§o do %dÂ° elemento do array Ã©: %d\n", j + 1,  (ponteiro + j));
 	}
 	return 0;
 }
